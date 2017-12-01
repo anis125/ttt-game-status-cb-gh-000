@@ -5,10 +5,10 @@ end
 
 WIN_COMBINATIONS=[[0,1,2], [3,4,5], [6,7,8], [0,3,6], [1,4,7], [2,5,8], [0,4,8], [6,4,2]]
 def won (board)
-if full?(board) == false || draw?(board) == false || over?(board) == false 
+if full?(board) == false || draw?(board) == false || over?(board) == false
   return false
 else
-  
+
 
 
 WIN_COMBINATIONS.each do |win_combination|
